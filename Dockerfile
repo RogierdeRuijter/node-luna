@@ -1,4 +1,4 @@
-FROM node:13-slim
+FROM node:13-buster-slim
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		openssh-client git ca-certificates \
