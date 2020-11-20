@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "build": "docker build . -t tjokvol/node:14-luna",
+        "push": "docker push tjokvol/node:14-luna"
+    }
+}
